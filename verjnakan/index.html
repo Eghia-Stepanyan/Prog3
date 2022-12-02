@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-color: lightskyblue;
+        }
+        .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+canvas {
+display: block;
+            margin: 0 auto;
+        }
+
+        div {
+            display: inline-block;
+        }
+
+        h1 {
+            padding: 20px;
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Noto Sans', sans-serif !important;
+        }
+        .button {background-color: #3a0d0d; color: black;} /* Gray */ 
+</style>
+    <title>Programming-3-Final</title>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <h1>Ծրագրավորում III Երևան</h1>
+            </tr>
+            <tr>
+                <h1>Եղիա Ստեփանյան</h1>
+
+    <p id="grassValue"></p>
+    <hr>
+    <p id="grassEaterValue"></p>
+    <hr>
+    <p id="predatorValue"></p>
+    <hr>
+    <p id="wormValue"></p>
+    <hr>
+    <p id="humanValue"></p>
+    <hr>
+    <p id="holeValue"></p>
+    <hr>
+    <p id="weather"></p>
+    <hr>
+    <button onclick="kill()" id="killButton">Սպանել բոլորին</button>
+    <button onclick="regen()" id="regenButton">Նոր խաղ</button>
+</body>
+</html>
